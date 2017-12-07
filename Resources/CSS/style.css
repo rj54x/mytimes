@@ -1,3 +1,5 @@
+
+/*header-related css*/
 header{
   border-bottom: 1px solid black;
   font-family: verdana;
@@ -40,4 +42,38 @@ nav a{
 
 .logo span{
   color: MediumAquamarine;
+}
+
+/*Body Related CSS*/
+.content{
+  display: flex;
+  width: 1232px;
+  padding-top: 116px;
+  margin: 0 auto 78px auto;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large{
+  width:630px;
+}
+
+.column.medium{
+  width: 300px;
+}
+
+.column.small{
+  width: 240px;
+}
+
+div{
+  border: 1px solid black;
+}
+
+img{
+    border: 1px solid black;
 }
