@@ -74,6 +74,7 @@ nav a{
 
 .column.small{
   width: 240px;
+  flex-shrink: 1;
 }
 
 .imgcontent{
@@ -118,4 +119,58 @@ nav a{
 
 .column.large{
   flex-direction: column;
+}
+
+.column.small .textcontent{
+  display: block;
+  flex-shrink: 1;
+}
+
+.column.small .imgcontent{
+  height: 240px;
+}
+
+.column.small h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.column.small span{
+  background-color: WhiteSmoke;
+  font-family: verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 11px 20px;
+  border-bottom: solid 1px black;
+  display: block;
+  flex-shrink: 1;
+}
+
+/*Footer Related CSS*/
+footer{
+  height: 320px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: verdana;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footerline nav{
+  display: inline-block;
+
+}
+
+.footerlogo{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: solid 2px white;
+  padding:0 25px;
+  margin-right: 20px;
 }
